@@ -1,0 +1,92 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+#container{
+    border: 1px solid red;
+    width: 30%;
+    /* height: 100px; */
+    margin: auto;
+    background-color: white;
+}
+#child_container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#container h2{
+    text-align: center;
+}
+#username{
+    display: flex;
+    margin-top: 20px;
+}
+#username input{
+    width: 232px;
+    height: 25px;
+    margin-left: 107px;
+}
+#password{
+    display: flex;
+    margin-top: 8px;
+}
+#password input{
+    width: 232px;
+    height: 25px;
+    margin-left: 110px;
+}
+#citOfEmployment{
+    display: flex;
+    margin-top: 10px;
+}
+#citOfEmployment input{
+    width: 220px;
+    height: 25px;
+    margin-left: 44px;
+}
+#webServer{
+    display: flex;
+    margin-top: 10px;
+}
+#webServer select,option{
+    width: 200px;
+    height: 25px;
+    margin-left: 99px;
+}
+#role{
+  display: flex;
+  margin-top: 35px;
+}
+#radio1{
+    margin-left: 20px;
+}
+#singleSignOn{
+    display: flex;
+    margin-top: 35px;
+}
+#singleSignOn>p{
+    width: 110px;
+    /* border: 1px solid red; */
+}
+#singleSignOn>div{
+    /* border: 1px solid green; */
+    margin-left: 70px;
+}
+#submit_reset{
+   margin-left: 180px;
+   margin-top: 20px;
+   
+}
+#submit_reset>input{
+    padding-left: 10px;
+    padding-right: 10px;
+}
