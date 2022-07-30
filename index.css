@@ -18,6 +18,8 @@ body{
     /* height: 100px; */
     margin: auto;
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #child_container{
     margin-left: 10px;
